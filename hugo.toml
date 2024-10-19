@@ -1,0 +1,31 @@
+baseURL = 'https://example.org/'
+languageCode = 'de-de'
+title = 'AstroSuper'
+theme = 'bootstrap-bp-hugo-theme'
+
+[menu]
+
+  [[menu.main]]
+    # identifier = "about"
+    # name = "About"
+    # url = "/about/"
+    # weight = 10
+    # pre = "<i class='fas fa-heart'></i>"
+
+  [[menu.footer]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+    pre = "<i class='fas fa-address-card'></i>"
+
+[social]
+  youtube          = "https://www.youtube.com/@astrotv"
+  instagram        = "https://www.instagram.com/explore/locations/105764799472732/astrotv/"
+
+[markup]
+    defaultMarkdownHandler = "goldmark"
+	
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
