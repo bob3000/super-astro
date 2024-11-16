@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://super-astro.danahata.com/'
 languageCode = 'de-de'
 title = 'AstroSuper'
 theme = 'bootstrap-bp-hugo-theme'
